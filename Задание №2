@@ -1,0 +1,49 @@
+
+String input = Console.ReadLine();
+int numberA = Convert.ToInt32(input);
+input = Console.ReadLine();
+int numberB = Convert.ToInt32(input);
+input = Console.ReadLine();
+int numberC = Convert.ToInt32(input);
+int max = 0;
+int min = 0;
+
+if (numberA>numberB  )
+{
+    if (numberA>numberC);
+ {
+        max=numberA;
+ }
+    else
+ {
+         if (numberB>numberC);
+    {
+            max=numberB;
+    }
+         else
+         {
+            max=numberC;
+         }
+ }
+
+
+}
+else
+   {if (numberB>numberC);
+    {
+        max=numberB;
+    }
+    else
+    {
+         if (numberA>numberC);
+         {
+            max=numberA;
+         }
+         else
+         {
+            max=numberC;
+         }
+    }
+   }
+
+
