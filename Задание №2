@@ -10,13 +10,13 @@ int min = 0;
 
 if (numberA>numberB  )
 {
-    if (numberA>numberC);
+    if (numberA>numberC)
  {
         max=numberA;
  }
     else
  {
-         if (numberB>numberC);
+         if (numberB>numberC)
     {
             max=numberB;
     }
@@ -29,13 +29,13 @@ if (numberA>numberB  )
 
 }
 else
-   {if (numberB>numberC);
+   {if (numberB>numberC)
     {
         max=numberB;
     }
     else
     {
-         if (numberA>numberC);
+         if (numberA>numberC)
          {
             max=numberA;
          }
@@ -46,4 +46,4 @@ else
     }
    }
 
-
+Console.WriteLine($"максимальное, {max} и минимальное, {min}");
