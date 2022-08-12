@@ -1,0 +1,22 @@
+
+String input = Console.ReadLine();
+int numberA = Convert.ToInt32(input);
+input = Console.ReadLine();
+int numberB = Convert.ToInt32(input);
+int yep = 0 ;
+int yip = 0;
+
+if (numberA<numberB)
+{
+    yep=numberB;
+    yip=numberA;
+    
+}
+else
+{
+    yip=numberB;
+    yep=numberA;
+}
+
+Console.WriteLine("Максимальное" + " " + yep );
+Console.WriteLine("Минимальное" + " " + yip );
